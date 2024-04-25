@@ -1,1 +1,266 @@
 /* место для вашего кода */
+.header {
+  display: flex;
+  margin: 92px 24px 96px 24px;
+  justify-content: space-evenly;
+}
+
+.header-menu-list {
+  display: flex;
+  gap: 32px;
+  padding: 44px 36px 39px 26.5px;
+  font-size: 18px;
+  list-style-type: circle;
+}
+.underscore {
+  text-underline-offset: 4px;
+}
+.header-menu-item-active {
+  text-decoration: double;
+  list-style-type: none;
+}
+
+.header-menu-link-active {
+  text-decoration: double;
+}
+
+.header-logo {
+  display: block;
+  width: 136px;
+  height: 105px;
+  margin: auto 0;
+}
+
+.header-logo-image {
+  justify-content: start;
+  width: 140px;
+}
+
+.contact {
+  width: 240px;
+  margin: 5px 25.4px 2px 184px;
+  font-size: 18px;
+  line-height: 135%;
+  list-style-type: none;
+}
+
+.cover {
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.opacity-image {
+  background: rgba(0, 0, 0, 0.5);
+  width: 1100px;
+  height: 757px;
+}
+.cover-title {
+  padding-top: 165px;
+  font-size: 100px;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 115%;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-left {
+  padding-left: 49px;
+}
+
+.text-center {
+  text-align: center;
+  padding-top: 13px;
+}
+
+.text-right {
+  text-align: right;
+  padding-top: 6px;
+  padding-right: 20px;
+}
+
+.cover-text {
+  color: #fff;
+  font-size: 22px;
+  line-height: 127%;
+  text-transform: uppercase;
+  list-style: none;
+  padding-top: 126px;
+  word-spacing: 19px;
+}
+
+.accent-span-spacing {
+  letter-spacing: 0.6em;
+}
+
+.cover-text-slogan {
+  margin-left: 78px;
+}
+
+.text-button {
+  border: 1px solid #fff;
+  background: none;
+  width: 256px;
+  height: 51px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 22px;
+  line-height: 127%;
+  margin-left: 51px;
+}
+
+.lots {
+  margin-top: 179px;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.section-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.title-lots {
+  margin-left: 64px;
+  margin-bottom: 27px;
+}
+
+.lots-list {
+  position: relative;
+  display: flex;
+  margin-bottom: 11px;
+  margin-left: 24px;
+  margin-right: 24px;
+  justify-content: space-between;
+}
+.opacity-image-lots {
+  background: rgba(0, 0, 0, 0.5);
+  width: 334px;
+  height: 563px;
+}
+
+.lots-list-item {
+  text-align: left;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.lots-list-item-img {
+  width: 334px;
+  height: 563px;
+  z-index: -1;
+}
+.lots-list-item-title {
+  position: absolute;
+  top: 51px;
+  color: #fff;
+  font-size: 22px;
+  line-height: 120%;
+  text-decoration-line: underline;
+}
+
+.lots-list-item-text {
+  position: absolute;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  text-transform: none;
+  align-items: flex-end;
+  padding-bottom: 48px;
+}
+
+.item-center {
+  width: 334px;
+}
+.lots-text {
+  width: 254px;
+}
+
+.lots-more {
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: lowercase;
+  padding-top: 30px;
+  padding-left: 64px;
+}
+
+.about {
+  display: flex;
+  margin-top: 130px;
+  margin-left: 35px;
+}
+
+.about-logo {
+  width: 240px;
+  height: 240px;
+  margin-top: 47px;
+  margin-left: 35px;
+  border-radius: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-logo-image {
+  width: 142px;
+  height: 114px;
+}
+
+.about-text-column {
+  margin-top: 147px;
+  margin-left: 72px;
+  width: 693px;
+}
+
+.about-text {
+  padding-top: 102px;
+
+  font-size: 20px;
+
+  letter-spacing: 0.01em;
+}
+
+.about-text-p {
+  padding-bottom: 27px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  padding: 150px 50px 89px;
+}
+
+.footer-contact {
+  margin: 0;
+}
+.menu-list {
+  list-style-type: none;
+}
+
+.footer-menu {
+  text-align: center;
+  font-size: 18px;
+  justify-content: end;
+}
+
+.footer-social {
+  display: flex;
+  gap: 48px;
+  list-style-type: none;
+}
+
+.footer-social-item {
+  width: 48px;
+  text-align: left;
+}
