@@ -56,9 +56,7 @@
 }
 
 .opacity-image {
-  position: relative;
-  top: 0;
-  left: 0;
+
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
@@ -187,29 +185,23 @@
 }
 
 .link-image-lots {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-.opacity-image-lots {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-content: space-between;
-  padding-top: 51px;
+  justify-content: center;
+  text-decoration: double;
+  min-height: 100%;
+  padding: 51px 0 48px;
 }
 
 .lots-list-item-text {
-  z-index: 6;
-  align-items: flex-end;
-  padding-bottom: 48px;
   color: #fff;
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
   text-transform: none;
 }
+
 .lots-text {
   max-width: 254px;
 }
